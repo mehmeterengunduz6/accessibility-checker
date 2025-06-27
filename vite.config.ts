@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: '/accessibility-checker/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
