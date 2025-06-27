@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Online Course - Introduction to Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .course-header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .course-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .video-container {
+            margin: 20px 0;
+        }
+        .quiz-section {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .low-contrast {
+            background: #f8f8f8;
+            color: #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="course-header">
+        <h1>Introduction to Web Development</h1>
+        <p>Learn the fundamentals of creating websites</p>
+    </header>
+
+    <main class="course-content">
+        <h1>Course Overview</h1>
+        
+        <h3>What you'll learn</h3>
+        
+        <h1>Getting Started</h1>
+        
+        <p>Welcome to our comprehensive web development course. This course will teach you everything you need to know about building modern websites.</p>
+        
+        <img src="https://via.placeholder.com/600x300" width="600" height="300">
+        
+        <div class="video-container">
+            <h2>Introduction Video</h2>
+            <video width="600" height="400" controls>
+                <source src="course-intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h3>Course Materials</h3>
+        <ul>
+            <li><a href="#lesson1">Lesson 1: HTML Basics</a></li>
+            <li><a href="#lesson2">Lesson 2: CSS Fundamentals</a></li>
+            <li><a href="#lesson3">Lesson 3: JavaScript Introduction</a></li>
+        </ul>
+
+        <div class="quiz-section">
+            <h2>Quick Quiz</h2>
+            <form>
+                <p>What does HTML stand for?</p>
+                <input type="radio" name="html" value="a"> HyperText Markup Language<br>
+                <input type="radio" name="html" value="b"> High Tech Modern Language<br>
+                <input type="radio" name="html" value="c"> Home Tool Markup Language<br>
+                
+                <p>Which CSS property is used for text color?</p>
+                <input type="text" placeholder="Enter your answer">
+                
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </div>
+
+        <div class="low-contrast">
+            This text has poor contrast and might be hard to read for some users.
+        </div>
+
+        <h2>Resources</h2>
+        <p>For additional help, contact our support team.</p>
+        
+        <button onclick="showHelp()">Get Help</button>
+    </main>
+
+    <script>
+        function showHelp() {
+            alert('Help is available in the course forum.');
+        }
+    </script>
+</body>
+</html>
