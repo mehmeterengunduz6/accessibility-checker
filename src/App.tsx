@@ -32,7 +32,7 @@ function App() {
       <div>
         <header className="header">
           <div className="container">
-            <h1>Course Accessibility Assessment</h1>
+            <h1>Accessibility for Course Creators</h1>
             <p>Complete results and personalized recommendations</p>
           </div>
         </header>
@@ -48,7 +48,7 @@ function App() {
       <div>
         <header className="header">
           <div className="container">
-            <h1>Course Accessibility Assessment</h1>
+            <h1>Accessibility for Course Creators</h1>
             <p>Answer questions about your course to get personalized recommendations</p>
           </div>
         </header>
@@ -66,15 +66,15 @@ function App() {
     <div>
       <header className="header">
         <div className="container">
-          <h1>Course Accessibility Assessment</h1>
-          <p>Evaluate how accessible your online course is to all learners</p>
+          <h1>Accessibility for Course Creators</h1>
+          <p>Evaluate how accessible your online course is to all learners with our comprehensive assessment tool</p>
         </div>
       </header>
 
       <div className="container">
         <div className="card" style={{ textAlign: 'center', padding: '60px 40px' }}>
           <div style={{ fontSize: '64px', marginBottom: '30px' }}>🎯</div>
-          <h2 style={{ marginBottom: '20px' }}>Ready to Check Your Course Accessibility?</h2>
+          <h2 style={{ marginBottom: '20px' }}>Ready to Improve Accessibility for Course Creators?</h2>
           <p style={{ 
             fontSize: '18px', 
             lineHeight: '1.6', 
@@ -82,7 +82,7 @@ function App() {
             maxWidth: '600px', 
             margin: '0 auto 40px' 
           }}>
-            Take our comprehensive assessment to discover how accessible your course is and get personalized recommendations for improvement.
+            As a course creator, ensure your content reaches all learners. Take our comprehensive accessibility assessment to discover gaps and get personalized recommendations for creating inclusive learning experiences.
           </p>
           
           <div style={{ marginBottom: '40px' }}>
@@ -125,19 +125,19 @@ function App() {
         </div>
 
         <div className="card">
-          <h3>What You'll Get</h3>
+          <h3>Why Accessibility Matters for Course Creators</h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px', marginTop: '20px' }}>
             <div>
-              <h4>📊 Accessibility Score</h4>
-              <p>Get an overall accessibility rating and category-specific scores to understand your course's current state.</p>
+              <h4>📊 Comprehensive Accessibility Assessment</h4>
+              <p>Get detailed insights into your course accessibility across visual, auditory, motor, and cognitive dimensions with actionable scores.</p>
             </div>
             <div>
-              <h4>🎯 Personalized Recommendations</h4>
-              <p>Receive specific, actionable suggestions tailored to your course's needs and current accessibility level.</p>
+              <h4>🎯 Course Creator-Focused Recommendations</h4>
+              <p>Receive specific, actionable accessibility improvements tailored for course creators, helping you build inclusive learning experiences.</p>
             </div>
             <div>
-              <h4>📚 Learning Resources</h4>
-              <p>Access curated resources and tools to help you implement accessibility improvements effectively.</p>
+              <h4>📚 Accessibility Resources for Educators</h4>
+              <p>Access curated resources specifically designed for course creators to implement accessibility best practices in online education.</p>
             </div>
           </div>
         </div>
